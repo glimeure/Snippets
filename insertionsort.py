@@ -5,3 +5,4 @@ def insertionsort(ls):
 			ls[l] = ls[l-1]
 			l -= 1
 		ls[l] = temp
+	return ls
