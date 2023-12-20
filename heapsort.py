@@ -1,4 +1,4 @@
-# def pi(n): return (n - 1) // 2
+# def PI(n): return (n - 1) // 2
 def LCI(n): return (n * 2) + 1
 def RCI(n): return (n * 2) + 2
 def MCI(ls, i, n): return LCI(i) if RCI(i) > n-1 or ls[LCI(i)] > ls[RCI(i)] else RCI(i)
